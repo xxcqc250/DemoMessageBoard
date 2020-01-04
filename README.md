@@ -1,6 +1,26 @@
 # DemoMessageBoard
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.21.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.21. <br>
+This is a small project about message board, you can login or leave some messages in artical. But it does not save the message what you write when  you refresh the website.<br>
+
+Online Demo : https://stackblitz.com/github/xxcqc250/DemoMessageBoard
+
+## Result
+Home Page :<br><br>
+<img src="https://i.imgur.com/0KrwikP.jpg" width="50%"/><br><br>
+
+Login Page<br>
+Account : root, password : root<br><br>
+<img src="https://i.imgur.com/eT1grXJ.jpg" width="50%"/><br><br>
+
+When login successful, name would change to the user name "@Master@"<br><br>
+<img src="https://i.imgur.com/CzBZWsX.jpg" width="50%"/><br><br>
+
+Click into any artical, you could leave some messages on it,<br>
+and it would show the user name and date<br><br>
+<img src="https://i.imgur.com/j8l8gBo.jpg" width="50%"/><br><br>
+<img src="https://i.imgur.com/nbB5dfx.jpg" width="50%"/><br><br>
+<img src="https://i.imgur.com/JQ8m9ey.jpg" width="50%"/><br><br>
 
 ## Development server
 
