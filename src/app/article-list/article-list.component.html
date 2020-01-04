@@ -1,0 +1,15 @@
+<div class="pt-4">
+    <img src="/assets/MESSAGE_BOARD.jpg" id="img_message_board" (error)="errorHandler($event)" class="img" style="width: 100%;"> 
+    <div class="c-container">
+      <!-- <img src="/assets/book.png" class="img-rounded"  width="50" >  -->
+      <!-- <p>Feel Free To Leave Comment</p> -->
+      <h3>文章列表</h3><br>
+      <div *ngFor="let article of articles" class="p-3">
+        <img src="/assets/book.png" id="img_book" (error)="errorHandler($event)" width="30" >&nbsp;
+        <a [routerLink]="['article', article.id]">
+          {{ article.title }}
+        </a>
+        <hr>
+      </div>
+    </div>
+  </div>

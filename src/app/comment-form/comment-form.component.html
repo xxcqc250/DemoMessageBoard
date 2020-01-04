@@ -1,0 +1,6 @@
+<div class="form-group">
+    我要留言<br><br>
+    標題: <input type="text" [(ngModel)]="CommentTitle" class="form-control mt-2" >
+    內容: <textarea name="comment" class="form-control mt-2" rows="5" [(ngModel)]="CommentContent"></textarea><br>
+    <button class="btn btn-primary mt-4" (click)="onSubmit()" >Submit</button>
+</div>
