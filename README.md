@@ -7,10 +7,6 @@ Online Demo : https://stackblitz.com/github/xxcqc250/DemoMessageBoard
 
 ## Result
 
-<img src="http://i.imgur.com/qfPUFYph.gif"  width="60%"/><br><br><br>
-
-
-
 Home Page :<br><br>
 <img src="https://i.imgur.com/0KrwikP.jpg" width="50%"/><br><br>
 
