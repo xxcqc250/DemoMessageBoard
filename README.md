@@ -14,11 +14,11 @@ Login Page<br>
 Account : root, password : root<br><br>
 <img src="https://i.imgur.com/eT1grXJ.jpg" width="50%"/><br><br>
 
-When login successful, name would be change to the user name "@Master@"<br><br>
+When login successful, name will change into the user name "@Master@"<br><br>
 <img src="https://i.imgur.com/CzBZWsX.jpg" width="50%"/><br><br>
 
 Click into any article, you could leave some messages on it,<br>
-and it would show the user name and date<br><br>
+and it will show the user name and date<br><br>
 <img src="https://i.imgur.com/j8l8gBo.jpg" width="50%"/><br><br>
 <img src="https://i.imgur.com/nbB5dfx.jpg" width="50%"/><br><br>
 <img src="https://i.imgur.com/JQ8m9ey.jpg" width="50%"/><br><br>
