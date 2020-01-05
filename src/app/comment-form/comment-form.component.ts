@@ -8,10 +8,10 @@ import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 })
 export class CommentFormComponent implements OnInit {
 
-  CommentContent = '';
-  CommentTitle = "";
+  CommentContent = ''; // 留言板內文
+  CommentTitle = ""; // 留言板標題
 
-
+  // 將留言emit到parent component
   @Output() addComment = new EventEmitter();
 
   constructor() { }
@@ -21,9 +21,12 @@ export class CommentFormComponent implements OnInit {
   }
 
   onSubmit(){
+    // 讀取使用者登入名稱
     let name = localStorage.getItem('user_name');
     console.log(this.CommentTitle);
     console.log(this.CommentContent);
+
+    // 將comment封裝為Object，再emit出去
     let comment_obj= {
       date: (new Date()).getTime(),
       name: name,

@@ -42,7 +42,7 @@ export class ArticleComponent implements OnInit {
     console.log(this.article);
   }
   
-
+  // 將留言push到array
   addComment(comment_obj){
     console.log(comment_obj);
     this.allComment.push(comment_obj);

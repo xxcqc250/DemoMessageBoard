@@ -8,6 +8,7 @@ import { articles } from '../articles';
 })
 export class ArticleListComponent implements OnInit {
 
+  // 取得所有文章資訊
   articles = articles;
 
   constructor() { }
@@ -15,6 +16,7 @@ export class ArticleListComponent implements OnInit {
   ngOnInit() {
   }
 
+  // 圖片載入失敗，改用網址
   errorHandler(event) {
     if(event.target.id == 'img_message_board'){
       event.target.src = "https://i.imgur.com/VegErHY.jpg";

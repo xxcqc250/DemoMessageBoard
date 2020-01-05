@@ -17,15 +17,17 @@ export class TopBarComponent implements OnInit {
   }
   
   ngOnChanges(){
-    console.log('set');
+    
     
   }
   
+  // 判斷是否登入
   readLocalStorageValue() {
     this.visitor_name = localStorage.getItem('user_name');
     return localStorage.getItem('user_id');
   }
 
+  // 登出 => 清除所有資訊
   logout(){
     localStorage.clear();
     localStorage.setItem('user_name', "訪客");
