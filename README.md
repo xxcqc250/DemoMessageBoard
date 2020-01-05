@@ -6,6 +6,11 @@ This is a small project about message board, you can login or leave some message
 Online Demo : https://stackblitz.com/github/xxcqc250/DemoMessageBoard
 
 ## Result
+
+<img src="http://i.imgur.com/qfPUFYph.gif"  width="60%"/><br><br><br>
+
+
+
 Home Page :<br><br>
 <img src="https://i.imgur.com/0KrwikP.jpg" width="50%"/><br><br>
 
@@ -13,7 +18,7 @@ Login Page<br>
 Account : root, password : root<br><br>
 <img src="https://i.imgur.com/eT1grXJ.jpg" width="50%"/><br><br>
 
-When login successful, name would change to the user name "@Master@"<br><br>
+When login successful, name would be change to the user name "@Master@"<br><br>
 <img src="https://i.imgur.com/CzBZWsX.jpg" width="50%"/><br><br>
 
 Click into any artical, you could leave some messages on it,<br>
