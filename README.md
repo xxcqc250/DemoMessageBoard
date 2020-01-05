@@ -1,7 +1,7 @@
 # DemoMessageBoard
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.21. <br>
-This is a small project about message board, you can login or leave some messages in artical. But it does not save the message what you write when  you refresh the website.<br>
+This is a tiny project about message board, you can login or leave some messages in artical. But it does not save the message what you write when  you refresh the website.<br>
 
 Online Demo : https://stackblitz.com/github/xxcqc250/DemoMessageBoard
 
